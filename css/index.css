@@ -149,16 +149,21 @@ header {
 /* index.html header styles begin */
 .headerImage {
 	align-self: center;
+	width: 20vw;
+}
+.headerImage img {
+	width: 100%;
 }
 
 .titleAndButtton {
 	align-self: center;
 	flex-direction: column;
 	align-items: center;
+	width: 20vw;
 }
 
 .siteTitle {
-	font-size: 90px;
+	font-size: 4.688vw;
 	text-align: center;
 }
 /* index.html header styles end */
@@ -293,6 +298,9 @@ footer {
 	.navBar {
 		padding: 0;
 	}
+	.copyright {
+		font-size: 3vw;
+	}
 }
 /* phones */
 @media (max-width: 550px) {
@@ -314,6 +322,9 @@ footer {
 		padding-bottom: 10px;
 		margin-bottom: 30px;
 	}
+	.navLink {
+		font-size: 4vw;
+	}
 	header {
 		margin-top: 100px;
 	}
@@ -325,6 +336,52 @@ footer {
 	}
 	.logo {
 		width: 75px;
+	}
+	.headerImage {
+		width: 30%;
+	}
+	.indexButton button {
+		width: 100px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.topContent {
+		margin: 6% 0 6%;
+		flex-direction: column;
+	}
+	
+	.topLeft {
+		width: 90%;
+		margin: 0 5% 5%;
+	}
+	
+	.topRight {
+		width: 90%;
+		margin: 0 5% 5%;
+	}
+	
+	.bottomContent {
+		margin: 6% 0 0;
+		flex-direction: column;
+	}
+	
+	.bottomLeft {
+		width: 90%;
+		margin: 0 5% 5%;
+	}
+	
+	.bottomCenter {
+		width: 90%;
+		margin: 0 5% 5%;
+	
+	}
+	
+	.bottomRight {
+		width: 90%;
+		margin: 0 5% 5%;
+	}
+	.contact {
+		text-align: center;
 	}
 	.servicesRowContainer {
 		flex-direction: column;
@@ -344,7 +401,7 @@ footer {
 	.servicesFootercolumn {
 		width: 100%;
 	}
-	.servicesHeaderImg, header h1, header p {
+	header h1, header p, .bannerImg{
 		padding: 0 5% 6%;
 	}
 	footer h2, footer p, footer ul {
