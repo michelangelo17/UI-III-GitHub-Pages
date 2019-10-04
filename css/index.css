@@ -328,9 +328,19 @@ footer {
 	header {
 		margin-top: 100px;
 	}
+	.servicesInfoImg {
+		display: none;
+	}
+	.servicesFootercolumn {
+		width: 100%;
+	}
+	.servicesFootercolumn p {
+		width: 100%;
+	}
 }
+
 /* narrower screen widths */
-@media (max-width: 700px) {
+@media (max-width: 719px) {
 	.maxWidth {
 		max-width: 100%;
 	}
@@ -395,12 +405,6 @@ footer {
 	.servicesMobileMargin {
 		margin-bottom: 6%;
 	}
-	.servicesInfoImg {
-		display: none;
-	}
-	.servicesFootercolumn {
-		width: 100%;
-	}
 	header h1, header p, .bannerImg{
 		padding: 0 5% 6%;
 	}
@@ -418,5 +422,18 @@ footer {
 	footer {
 		border: none;
 		margin-top: 0;
+	}
+}
+
+/* Landscape mode */
+@media (min-width: 500px) {
+	.servicesFootercolumn p {
+		width: 215%;
+		padding-bottom: 5%;
+	}
+	.servicesInfoImg {
+		padding-right: 5%;
+		width: 35%;
+		align-self: flex-end;
 	}
 }
